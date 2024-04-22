@@ -2,7 +2,7 @@
 import Markett from '../components/market/Markett';
 import Footer from '../footer/Footer'
 import React from 'react'
-import HistoryChart from './../components/historychart/HistoryChart';
+// import HistoryChart from './../components/historychart/HistoryChart';
 
 const Page = () => {
   return (
@@ -30,7 +30,7 @@ const Page = () => {
           <p className="font-bold">3367077438.11</p>
         </div>
       </div>
-      <HistoryChart/>
+      {/* <HistoryChart/> */}
       <Markett/>
       <div className="font-bold"></div>
     </div>
